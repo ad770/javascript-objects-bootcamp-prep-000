@@ -5,4 +5,5 @@ function updatePlaylist(playlist, artistName, songTitle){
 }
 function removeFromPlaylist(playlist, artistName){
  playlist[artistName] = undefined;
+ return playlist;
 }
